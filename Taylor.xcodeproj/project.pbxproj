@@ -1,0 +1,1262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"Taylor::TaylorPackageTests::ProductTarget" /* TaylorPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_120 /* Build configuration list for PBXAggregateTarget "TaylorPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_123 /* PBXTargetDependency */,
+			);
+			name = TaylorPackageTests;
+			productName = TaylorPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		DC93993021721D4200FAC2A4 /* Local.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC93992F21721D4200FAC2A4 /* Local.swift */; };
+		OBJ_101 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* Package.swift */; };
+		OBJ_107 /* Taylor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Taylor.swift */; };
+		OBJ_109 /* Shellman.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Shellman::Shellman::Product" /* Shellman.framework */; };
+		OBJ_110 /* Files.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Files::Files::Product" /* Files.framework */; };
+		OBJ_118 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_129 /* TaylorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* TaylorTests.swift */; };
+		OBJ_130 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* XCTestManifests.swift */; };
+		OBJ_132 /* TaylorFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Taylor::TaylorFramework::Product" /* TaylorFramework.framework */; };
+		OBJ_133 /* Shellman.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Shellman::Shellman::Product" /* Shellman.framework */; };
+		OBJ_134 /* Files.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Files::Files::Product" /* Files.framework */; };
+		OBJ_143 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* main.swift */; };
+		OBJ_145 /* Commander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Commander::Commander::Product" /* Commander.framework */; };
+		OBJ_146 /* TaylorFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Taylor::TaylorFramework::Product" /* TaylorFramework.framework */; };
+		OBJ_147 /* Shellman.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Shellman::Shellman::Product" /* Shellman.framework */; };
+		OBJ_148 /* Files.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Files::Files::Product" /* Files.framework */; };
+		OBJ_56 /* Commander.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* Commander.swift */; };
+		OBJ_57 /* HelpCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* HelpCommand.swift */; };
+		OBJ_58 /* CommandDescriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* CommandDescriber.swift */; };
+		OBJ_59 /* CommandPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* CommandPath.swift */; };
+		OBJ_60 /* CommandRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* CommandRepresentable.swift */; };
+		OBJ_61 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* Error.swift */; };
+		OBJ_62 /* OptionDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* OptionDescription.swift */; };
+		OBJ_63 /* OptionsDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* OptionsDecoder.swift */; };
+		OBJ_64 /* OptionsRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* OptionsRepresentable.swift */; };
+		OBJ_65 /* misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* misc.swift */; };
+		OBJ_72 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* Package.swift */; };
+		OBJ_78 /* Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Files.swift */; };
+		OBJ_85 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* Package.swift */; };
+		OBJ_91 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* Protocols.swift */; };
+		OBJ_92 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* Results.swift */; };
+		OBJ_93 /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Shell.swift */; };
+		OBJ_94 /* misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* misc.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC93992521721D0400FAC2A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Commander::Commander";
+			remoteInfo = Commander;
+		};
+		DC93992621721D0400FAC2A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Taylor::TaylorFramework";
+			remoteInfo = TaylorFramework;
+		};
+		DC93992721721D0400FAC2A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Shellman::Shellman";
+			remoteInfo = Shellman;
+		};
+		DC93992821721D0400FAC2A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Files::Files";
+			remoteInfo = Files;
+		};
+		DC93992921721D0400FAC2A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Shellman::Shellman";
+			remoteInfo = Shellman;
+		};
+		DC93992A21721D0400FAC2A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Files::Files";
+			remoteInfo = Files;
+		};
+		DC93992B21721D0400FAC2A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Taylor::TaylorFramework";
+			remoteInfo = TaylorFramework;
+		};
+		DC93992C21721D0400FAC2A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Shellman::Shellman";
+			remoteInfo = Shellman;
+		};
+		DC93992D21721D0400FAC2A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Files::Files";
+			remoteInfo = Files;
+		};
+		DC93992E21721D0500FAC2A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Taylor::TaylorTests";
+			remoteInfo = TaylorTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		"Commander::Commander::Product" /* Commander.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Commander.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC93992F21721D4200FAC2A4 /* Local.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Local.swift; sourceTree = "<group>"; };
+		"Files::Files::Product" /* Files.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Files.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_11 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_14 /* TaylorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaylorTests.swift; sourceTree = "<group>"; };
+		OBJ_15 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_19 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		OBJ_20 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		OBJ_21 /* Shell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
+		OBJ_22 /* misc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = misc.swift; sourceTree = "<group>"; };
+		OBJ_23 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/devedbox/Documents/Meituan-Dianping/Github/Taylor/.build/checkouts/Shellman.git--3101164656101678665/Package.swift"; sourceTree = "<group>"; };
+		OBJ_25 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/devedbox/Documents/Meituan-Dianping/Github/Taylor/.build/checkouts/Files.git-4887818182326372108/Package.swift"; sourceTree = "<group>"; };
+		OBJ_26 /* Files.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Files.swift; sourceTree = "<group>"; };
+		OBJ_29 /* Commander.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commander.swift; sourceTree = "<group>"; };
+		OBJ_32 /* HelpCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpCommand.swift; sourceTree = "<group>"; };
+		OBJ_33 /* CommandDescriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandDescriber.swift; sourceTree = "<group>"; };
+		OBJ_34 /* CommandPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPath.swift; sourceTree = "<group>"; };
+		OBJ_35 /* CommandRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandRepresentable.swift; sourceTree = "<group>"; };
+		OBJ_36 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		OBJ_38 /* OptionDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionDescription.swift; sourceTree = "<group>"; };
+		OBJ_39 /* OptionsDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsDecoder.swift; sourceTree = "<group>"; };
+		OBJ_40 /* OptionsRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsRepresentable.swift; sourceTree = "<group>"; };
+		OBJ_41 /* misc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = misc.swift; sourceTree = "<group>"; };
+		OBJ_43 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/devedbox/Documents/Meituan-Dianping/Github/Taylor/.build/checkouts/Commander.git-7484768039806848139/Package.swift"; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* Taylor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taylor.swift; sourceTree = "<group>"; };
+		"Shellman::Shellman::Product" /* Shellman.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Shellman.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Taylor::TaylorFramework::Product" /* TaylorFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TaylorFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Taylor::TaylorTests::Product" /* TaylorTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = TaylorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Taylor::taylor::Product" /* taylor */ = {isa = PBXFileReference; lastKnownFileType = text; path = taylor; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_109 /* Shellman.framework in Frameworks */,
+				OBJ_110 /* Files.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_132 /* TaylorFramework.framework in Frameworks */,
+				OBJ_133 /* Shellman.framework in Frameworks */,
+				OBJ_134 /* Files.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_145 /* Commander.framework in Frameworks */,
+				OBJ_146 /* TaylorFramework.framework in Frameworks */,
+				OBJ_147 /* Shellman.framework in Frameworks */,
+				OBJ_148 /* Files.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_10 /* taylor */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* main.swift */,
+			);
+			name = taylor;
+			path = Sources/taylor;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_12 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_13 /* TaylorTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_13 /* TaylorTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_14 /* TaylorTests.swift */,
+				OBJ_15 /* XCTestManifests.swift */,
+			);
+			name = TaylorTests;
+			path = Tests/TaylorTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_16 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_17 /* Shellman 0.1.1 */,
+				OBJ_24 /* Files 2.2.1 */,
+				OBJ_27 /* Commander 0.3.1 */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_17 /* Shellman 0.1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_18 /* Shellman */,
+				OBJ_23 /* Package.swift */,
+			);
+			name = "Shellman 0.1.1";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_18 /* Shellman */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_19 /* Protocols.swift */,
+				OBJ_20 /* Results.swift */,
+				OBJ_21 /* Shell.swift */,
+				OBJ_22 /* misc.swift */,
+			);
+			name = Shellman;
+			path = ".build/checkouts/Shellman.git--3101164656101678665/Sources/Shellman";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_24 /* Files 2.2.1 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_25 /* Package.swift */,
+				OBJ_26 /* Files.swift */,
+			);
+			name = "Files 2.2.1";
+			path = ".build/checkouts/Files.git-4887818182326372108/Sources";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_27 /* Commander 0.3.1 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_28 /* Commander */,
+				OBJ_42 /* commander-sample */,
+				OBJ_43 /* Package.swift */,
+			);
+			name = "Commander 0.3.1";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_28 /* Commander */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_29 /* Commander.swift */,
+				OBJ_30 /* Commands */,
+				OBJ_36 /* Error.swift */,
+				OBJ_37 /* Options */,
+				OBJ_41 /* misc.swift */,
+			);
+			name = Commander;
+			path = ".build/checkouts/Commander.git-7484768039806848139/Sources/Commander";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_30 /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_31 /* Built-Ins */,
+				OBJ_33 /* CommandDescriber.swift */,
+				OBJ_34 /* CommandPath.swift */,
+				OBJ_35 /* CommandRepresentable.swift */,
+			);
+			path = Commands;
+			sourceTree = "<group>";
+		};
+		OBJ_31 /* Built-Ins */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_32 /* HelpCommand.swift */,
+			);
+			path = "Built-Ins";
+			sourceTree = "<group>";
+		};
+		OBJ_37 /* Options */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_38 /* OptionDescription.swift */,
+				OBJ_39 /* OptionsDecoder.swift */,
+				OBJ_40 /* OptionsRepresentable.swift */,
+			);
+			path = Options;
+			sourceTree = "<group>";
+		};
+		OBJ_42 /* commander-sample */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "commander-sample";
+			path = ".build/checkouts/Commander.git-7484768039806848139/Sources/commander-sample";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"Files::Files::Product" /* Files.framework */,
+				"Taylor::taylor::Product" /* taylor */,
+				"Taylor::TaylorTests::Product" /* TaylorTests.xctest */,
+				"Shellman::Shellman::Product" /* Shellman.framework */,
+				"Commander::Commander::Product" /* Commander.framework */,
+				"Taylor::TaylorFramework::Product" /* TaylorFramework.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_12 /* Tests */,
+				OBJ_16 /* Dependencies */,
+				OBJ_44 /* Products */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* TaylorFramework */,
+				OBJ_10 /* taylor */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* TaylorFramework */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* Taylor.swift */,
+				DC93992F21721D4200FAC2A4 /* Local.swift */,
+			);
+			name = TaylorFramework;
+			path = Sources/TaylorFramework;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"Commander::Commander" /* Commander */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_52 /* Build configuration list for PBXNativeTarget "Commander" */;
+			buildPhases = (
+				OBJ_55 /* Sources */,
+				OBJ_66 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Commander;
+			productName = Commander;
+			productReference = "Commander::Commander::Product" /* Commander.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Commander::SwiftPMPackageDescription" /* CommanderPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_68 /* Build configuration list for PBXNativeTarget "CommanderPackageDescription" */;
+			buildPhases = (
+				OBJ_71 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommanderPackageDescription;
+			productName = CommanderPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"Files::Files" /* Files */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_74 /* Build configuration list for PBXNativeTarget "Files" */;
+			buildPhases = (
+				OBJ_77 /* Sources */,
+				OBJ_79 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Files;
+			productName = Files;
+			productReference = "Files::Files::Product" /* Files.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Files::SwiftPMPackageDescription" /* FilesPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_81 /* Build configuration list for PBXNativeTarget "FilesPackageDescription" */;
+			buildPhases = (
+				OBJ_84 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FilesPackageDescription;
+			productName = FilesPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"Shellman::Shellman" /* Shellman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_87 /* Build configuration list for PBXNativeTarget "Shellman" */;
+			buildPhases = (
+				OBJ_90 /* Sources */,
+				OBJ_95 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shellman;
+			productName = Shellman;
+			productReference = "Shellman::Shellman::Product" /* Shellman.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Shellman::SwiftPMPackageDescription" /* ShellmanPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_97 /* Build configuration list for PBXNativeTarget "ShellmanPackageDescription" */;
+			buildPhases = (
+				OBJ_100 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShellmanPackageDescription;
+			productName = ShellmanPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"Taylor::SwiftPMPackageDescription" /* TaylorPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_114 /* Build configuration list for PBXNativeTarget "TaylorPackageDescription" */;
+			buildPhases = (
+				OBJ_117 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaylorPackageDescription;
+			productName = TaylorPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"Taylor::TaylorFramework" /* TaylorFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_103 /* Build configuration list for PBXNativeTarget "TaylorFramework" */;
+			buildPhases = (
+				OBJ_106 /* Sources */,
+				OBJ_108 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_111 /* PBXTargetDependency */,
+				OBJ_112 /* PBXTargetDependency */,
+			);
+			name = TaylorFramework;
+			productName = TaylorFramework;
+			productReference = "Taylor::TaylorFramework::Product" /* TaylorFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Taylor::TaylorTests" /* TaylorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_125 /* Build configuration list for PBXNativeTarget "TaylorTests" */;
+			buildPhases = (
+				OBJ_128 /* Sources */,
+				OBJ_131 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_135 /* PBXTargetDependency */,
+				OBJ_136 /* PBXTargetDependency */,
+				OBJ_137 /* PBXTargetDependency */,
+			);
+			name = TaylorTests;
+			productName = TaylorTests;
+			productReference = "Taylor::TaylorTests::Product" /* TaylorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"Taylor::taylor" /* taylor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_139 /* Build configuration list for PBXNativeTarget "taylor" */;
+			buildPhases = (
+				OBJ_142 /* Sources */,
+				OBJ_144 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_149 /* PBXTargetDependency */,
+				OBJ_150 /* PBXTargetDependency */,
+				OBJ_151 /* PBXTargetDependency */,
+				OBJ_152 /* PBXTargetDependency */,
+			);
+			name = taylor;
+			productName = taylor;
+			productReference = "Taylor::taylor::Product" /* taylor */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Taylor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"Commander::Commander" /* Commander */,
+				"Commander::SwiftPMPackageDescription" /* CommanderPackageDescription */,
+				"Files::Files" /* Files */,
+				"Files::SwiftPMPackageDescription" /* FilesPackageDescription */,
+				"Shellman::Shellman" /* Shellman */,
+				"Shellman::SwiftPMPackageDescription" /* ShellmanPackageDescription */,
+				"Taylor::TaylorFramework" /* TaylorFramework */,
+				"Taylor::SwiftPMPackageDescription" /* TaylorPackageDescription */,
+				"Taylor::TaylorPackageTests::ProductTarget" /* TaylorPackageTests */,
+				"Taylor::TaylorTests" /* TaylorTests */,
+				"Taylor::taylor" /* taylor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_101 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_107 /* Taylor.swift in Sources */,
+				DC93993021721D4200FAC2A4 /* Local.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_118 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_129 /* TaylorTests.swift in Sources */,
+				OBJ_130 /* XCTestManifests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_143 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_56 /* Commander.swift in Sources */,
+				OBJ_57 /* HelpCommand.swift in Sources */,
+				OBJ_58 /* CommandDescriber.swift in Sources */,
+				OBJ_59 /* CommandPath.swift in Sources */,
+				OBJ_60 /* CommandRepresentable.swift in Sources */,
+				OBJ_61 /* Error.swift in Sources */,
+				OBJ_62 /* OptionDescription.swift in Sources */,
+				OBJ_63 /* OptionsDecoder.swift in Sources */,
+				OBJ_64 /* OptionsRepresentable.swift in Sources */,
+				OBJ_65 /* misc.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_72 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_78 /* Files.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_85 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_91 /* Protocols.swift in Sources */,
+				OBJ_92 /* Results.swift in Sources */,
+				OBJ_93 /* Shell.swift in Sources */,
+				OBJ_94 /* misc.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_111 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Shellman::Shellman" /* Shellman */;
+			targetProxy = DC93992721721D0400FAC2A4 /* PBXContainerItemProxy */;
+		};
+		OBJ_112 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Files::Files" /* Files */;
+			targetProxy = DC93992821721D0400FAC2A4 /* PBXContainerItemProxy */;
+		};
+		OBJ_123 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Taylor::TaylorTests" /* TaylorTests */;
+			targetProxy = DC93992E21721D0500FAC2A4 /* PBXContainerItemProxy */;
+		};
+		OBJ_135 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Taylor::TaylorFramework" /* TaylorFramework */;
+			targetProxy = DC93992B21721D0400FAC2A4 /* PBXContainerItemProxy */;
+		};
+		OBJ_136 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Shellman::Shellman" /* Shellman */;
+			targetProxy = DC93992C21721D0400FAC2A4 /* PBXContainerItemProxy */;
+		};
+		OBJ_137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Files::Files" /* Files */;
+			targetProxy = DC93992D21721D0400FAC2A4 /* PBXContainerItemProxy */;
+		};
+		OBJ_149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Commander::Commander" /* Commander */;
+			targetProxy = DC93992521721D0400FAC2A4 /* PBXContainerItemProxy */;
+		};
+		OBJ_150 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Taylor::TaylorFramework" /* TaylorFramework */;
+			targetProxy = DC93992621721D0400FAC2A4 /* PBXContainerItemProxy */;
+		};
+		OBJ_151 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Shellman::Shellman" /* Shellman */;
+			targetProxy = DC93992921721D0400FAC2A4 /* PBXContainerItemProxy */;
+		};
+		OBJ_152 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Files::Files" /* Files */;
+			targetProxy = DC93992A21721D0400FAC2A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Taylor.xcodeproj/TaylorFramework_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = TaylorFramework;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = TaylorFramework;
+			};
+			name = Debug;
+		};
+		OBJ_105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Taylor.xcodeproj/TaylorFramework_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = TaylorFramework;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = TaylorFramework;
+			};
+			name = Release;
+		};
+		OBJ_115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		OBJ_116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		OBJ_121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Taylor.xcodeproj/TaylorTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = TaylorTests;
+			};
+			name = Debug;
+		};
+		OBJ_127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Taylor.xcodeproj/TaylorTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = TaylorTests;
+			};
+			name = Release;
+		};
+		OBJ_140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Taylor.xcodeproj/taylor_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = taylor;
+			};
+			name = Debug;
+		};
+		OBJ_141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Taylor.xcodeproj/taylor_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = taylor;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Taylor.xcodeproj/Commander_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Commander;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = Commander;
+			};
+			name = Debug;
+		};
+		OBJ_54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Taylor.xcodeproj/Commander_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Commander;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = Commander;
+			};
+			name = Release;
+		};
+		OBJ_69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Taylor.xcodeproj/Files_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Files;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = Files;
+			};
+			name = Debug;
+		};
+		OBJ_76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Taylor.xcodeproj/Files_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Files;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = Files;
+			};
+			name = Release;
+		};
+		OBJ_82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Taylor.xcodeproj/Shellman_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Shellman;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = Shellman;
+			};
+			name = Debug;
+		};
+		OBJ_89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Taylor.xcodeproj/Shellman_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Shellman;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = Shellman;
+			};
+			name = Release;
+		};
+		OBJ_98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_103 /* Build configuration list for PBXNativeTarget "TaylorFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_104 /* Debug */,
+				OBJ_105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_114 /* Build configuration list for PBXNativeTarget "TaylorPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_115 /* Debug */,
+				OBJ_116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_120 /* Build configuration list for PBXAggregateTarget "TaylorPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_121 /* Debug */,
+				OBJ_122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_125 /* Build configuration list for PBXNativeTarget "TaylorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_126 /* Debug */,
+				OBJ_127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_139 /* Build configuration list for PBXNativeTarget "taylor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_140 /* Debug */,
+				OBJ_141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "Taylor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_52 /* Build configuration list for PBXNativeTarget "Commander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_53 /* Debug */,
+				OBJ_54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_68 /* Build configuration list for PBXNativeTarget "CommanderPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_69 /* Debug */,
+				OBJ_70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_74 /* Build configuration list for PBXNativeTarget "Files" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_75 /* Debug */,
+				OBJ_76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_81 /* Build configuration list for PBXNativeTarget "FilesPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_82 /* Debug */,
+				OBJ_83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_87 /* Build configuration list for PBXNativeTarget "Shellman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_88 /* Debug */,
+				OBJ_89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_97 /* Build configuration list for PBXNativeTarget "ShellmanPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_98 /* Debug */,
+				OBJ_99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
