@@ -1,10 +1,8 @@
 //
-//  main.swift
-//  Taylor
+//  GitRepository.swift
+//  TaylorFramework
 //
 //  Created by devedbox on 2018/10/13.
-//
-//  Copyright (c) 2018 devedbox
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -25,18 +23,22 @@
 //  SOFTWARE.
 //
 
-import Foundation
-import Commander
+import Files
 
-public final class Talyor: CommanderRepresentable {
-  public static let errorHandler: ((Error) -> Void)? = {
-    print(String(describing: $0))
+public class GitRepository {
+  public let url: String
+  
+  public init(url: String) {
+    self.url = url
   }
-  public static let commands: [AnyCommandRepresentable.Type] = [
-    List.self,
-    Install.self
-  ]
-  public static let usage: String = "Build and run the swift package and install the executable binaries"
 }
 
-Talyor().dispatch()
+extension GitRepository {
+  public class func github(_ userAndRepo: String) -> GitRepository {
+    return GitRepository(url: "https://github.com/\(userAndRepo).git")
+  }
+  
+  public class func other(_ source: String) -> GitRepository {
+    return GitRepository(url: source)
+  }
+}

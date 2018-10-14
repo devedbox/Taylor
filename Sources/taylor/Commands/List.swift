@@ -1,8 +1,10 @@
 //
-//  Local.swift
-//  TaylorFramework
+//  List.swift
+//  taylor
 //
 //  Created by devedbox on 2018/10/13.
+//
+//  Copyright (c) 2018 devedbox
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -23,17 +25,31 @@
 //  SOFTWARE.
 //
 
-import Foundation
-import Files
+import TaylorFramework
+import Commander
 
-public final class Local {
-  public struct Release {
-    public let version: String
-    public let file: File
+public struct List: CommandRepresentable {
+  public struct Options: OptionsRepresentable {
+    public enum CodingKeys: String, CodingKeysRepresentable {
+      case isAll = "all"
+    }
+    
+    public static var keys: [Options.CodingKeys : Character] = [
+      .isAll: "A"
+    ]
+    
+    public static var descriptions: [Options.CodingKeys : OptionDescription] = [
+      .isAll: .default(value: false, usage: "List all the install taylors' info")
+    ]
+    
+    public let isAll: Bool
   }
-  public let folder: Folder
   
-  public init() throws {
-    self.folder = try Folder(path: "/usr/local/Taylor/")
+  public static let symbol: String = "list"
+  public static let usage: String = "List and print infos of installed taylor info."
+  
+  public static func main(_ options: List.Options) throws {
+    let taylor = try Taylor()
+    print(taylor.checkouts.map { $0.name }.joined(separator: "\n"))
   }
 }

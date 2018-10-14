@@ -1,10 +1,8 @@
 //
-//  main.swift
-//  Taylor
+//  Install.swift
+//  TaylorFramework
 //
 //  Created by devedbox on 2018/10/13.
-//
-//  Copyright (c) 2018 devedbox
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -25,18 +23,34 @@
 //  SOFTWARE.
 //
 
-import Foundation
+import TaylorFramework
 import Commander
 
-public final class Talyor: CommanderRepresentable {
-  public static let errorHandler: ((Error) -> Void)? = {
-    print(String(describing: $0))
+public struct Install: CommandRepresentable {
+  public struct Options: OptionsRepresentable {
+    public typealias ArgumentsResolver = AnyArgumentsResolver<String>
+    public enum CodingKeys: String, CodingKeysRepresentable {
+      case source
+      case isLatest = "latest"
+    }
+    
+    public static var keys: [Options.CodingKeys : Character] = [
+      .source: "R"
+    ]
+    
+    public static var descriptions: [Options.CodingKeys : OptionDescription] = [
+      .source: .usage("List all the install taylors' info")
+    ]
+    
+    public let source: String?
+    public let isLatest: Bool?
   }
-  public static let commands: [AnyCommandRepresentable.Type] = [
-    List.self,
-    Install.self
-  ]
-  public static let usage: String = "Build and run the swift package and install the executable binaries"
+  
+  public static let symbol: String = "install"
+  public static let usage: String = "Build and install the executable target of the given Swift Package Repos"
+  
+  public static func main(_ options: Options) throws {
+    print(options.arguments.joined(separator: "\n"))
+  }
 }
 
-Talyor().dispatch()
