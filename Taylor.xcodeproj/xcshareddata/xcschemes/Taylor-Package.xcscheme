@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Taylor::taylor"
-               BuildableName = "taylor"
-               BlueprintName = "taylor"
+               BlueprintIdentifier = "Taylor::TaylorFramework"
+               BuildableName = "TaylorFramework.framework"
+               BlueprintName = "TaylorFramework"
                ReferencedContainer = "container:Taylor.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,9 +28,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Taylor::TaylorFramework"
-               BuildableName = "TaylorFramework.framework"
-               BlueprintName = "TaylorFramework"
+               BlueprintIdentifier = "Taylor::taylor"
+               BuildableName = "taylor"
+               BlueprintName = "taylor"
                ReferencedContainer = "container:Taylor.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -69,9 +69,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "Taylor::taylor"
-            BuildableName = "taylor"
-            BlueprintName = "taylor"
+            BlueprintIdentifier = "Taylor::TaylorFramework"
+            BuildableName = "TaylorFramework.framework"
+            BlueprintName = "TaylorFramework"
             ReferencedContainer = "container:Taylor.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

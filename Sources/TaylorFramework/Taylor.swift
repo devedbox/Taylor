@@ -38,8 +38,8 @@ public final class Taylor {
   }
   public let folder: Folder
   
-  public init() throws {
-    self.folder = try FileSystem().createFolderIfNeeded(at: "/usr/local/Taylor/")
+  public init(at location: String = "/usr/local/Taylor/") throws {
+    self.folder = try FileSystem().createFolderIfNeeded(at: location)
   }
 }
 
